@@ -10,7 +10,7 @@ function nextTime(){
 
   currentDate = new Date(currentDate);
 
-  var referenceDate = new Date("04/15/2021");
+  var referenceDate = new Date("06/25/2021");
   var days = currentDate.getTime() - referenceDate.getTime();
   days = days / (1000 * 3600 * 24);
 

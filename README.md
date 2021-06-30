@@ -1,5 +1,3 @@
-# memphishack.com the landing page for Memphis Hackclub(Deprecated Go to [New Version](https://github.com/Memphis-Hackclub/the-new-website))
-
 Build In | Contributors | Live version
 --- | --- | ---
 **HTML/CSS/JS** | [@philip-hub](https://github.com/philip-hub)[@MaybeDuck](https://github.com/MaybeDuck) [JacobHensley](https://github.com/JacobHensley)| [memphishack.com](http://memphishack.com)

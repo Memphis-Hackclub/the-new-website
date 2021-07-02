@@ -18,7 +18,7 @@ function nextTime(){
 
   //console.log(currentDay);
 
-  if (currentDay == 4){
+  if (currentDay == 5){
     if(hours >= 20){
       weeks = Math.trunc(weeks) + 1;
     }
@@ -49,7 +49,7 @@ function nextTime(){
   var yyyy = nextMeeting.getFullYear();
   nextMeeting = mm + '/' + dd + '/' + yyyy;
 
- var text = "Zoom 4 PM Thursday "+nextMeeting;
+ var text = "Zoom 4 PM Friday "+nextMeeting;
 
  console.log("--------------------")
  console.log("#")

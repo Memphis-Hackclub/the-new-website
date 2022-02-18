@@ -1,0 +1,32 @@
+{
+  "Philip": {
+    "email": "philippounds@memphishack.com",
+    "phone": "901-503-6556"
+  },
+  "Blake": {
+    "email": "blakefreeman@memphishack.com",
+    "phone": "858-946-8515"
+  },
+  "Ari": {
+    "email": "ariellerodgers@memphishack.com",
+    "phone": "616-635-5414"
+  },
+  "Sophia": {
+    "email": "sophiastanford@memphishack.com",
+    "phone": "901-338-7629"
+  },
+  "John": {
+    "email": "johnpounds@memphishack.com",
+    "phone": "901-288-5334"
+  },
+  "Micah": {
+    "email": "hi@micahlindley.com",
+    "phone": "731-903-7085"
+  },
+  "Ethan": {
+    "email": "ethankal@memphishack.com"
+  },
+  "Club": {
+    "email": "club@memphishack.com"
+  }
+}

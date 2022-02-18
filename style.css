@@ -260,6 +260,10 @@ a {
   padding-left: 0.5em;
 }
 
+.email, .phone {
+  padding: 0.5rem;
+}
+
 @keyframes blink {
   0% {
     opacity: 0;

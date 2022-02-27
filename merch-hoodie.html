@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="description" content="Memphis Hackclub is a coding and engineering club open to any student at any skill level!">
+    <meta name="description" content="Help support Memphis Hack Club's goal by buying merch today 💻 🌎 🚀">
     <meta
       name="keywords"
       content="memphis coding, memphis student coding, memphis stem, memphis hacking, memphis hackothons, memphis student clubs, whitestation coding, midtown memphis coding, west memphis student clubs, student coding groups memphis, student programming groups memphis, memphis computer science, memphis hackclub, memphis student engineering, memphis student coding groups">
@@ -32,7 +32,7 @@
             <br>
             <div class="merch-price">
               <h2>$45</h2>
-              <input type='button' onclick='createButton()' value='Buy Now' class="buy-button"/>
+              <input type='button' onclick='redirect()' value='Buy Now' class="buy-button"/>
             </div>
             <p class="merch-description">
               Just like a nice warm hug, this hooded sweatshirt made of a soft 50% cotton and 50% polyester fabric is perfect for the fall. Its regular fit assures the perfect balance of long-lasting comfort and a contemporary silhouette. Featuring a hood,
@@ -67,9 +67,9 @@
             <option value="5xl" class="5xl">5xl</option>
             ]
           </select>
-          <p>Navy small and navy medium are out of stock currently.</p>
+          
           <br>
-          <h1>Shipping Info</h1>
+          <!-- <h1>Shipping Info</h1>
           <label>Address<br>
             <textarea id="address" rows="4" cols="50"></textarea><br>
             <label>Address 2 (Optional)<br>
@@ -99,10 +99,15 @@
                         <br></select>
                       <br>
                       <p></p><br>
-                      <div id="paypalPlace"></div>
+                      <div id="paypalPlace"></div>-->
                     </div>
-                  </div>
+                  </div> 
                   <script type="text/javascript">
+                    function redirect() {
+                     window.location.href = "https://forms.gle/JPALRE3UkoWtP26B6"
+                      
+                    }
+                    
                     val = 'white';
                     finalSize = 'medium';
                     var pictureList = ["merch-images/hoodie-images/white.png", "merch-images/hoodie-images/navy.jpeg"];
@@ -129,15 +134,25 @@
                     address2 = "NA";
                     otherstate = "NA";
                     function createButton() {
-                      address = document.getElementById('address').value;
-                      address2 = document.getElementById('address2').value;
-                      city = document.getElementById('city').value;
-                      state = document.getElementById('state').value;
-                      otherState = document.getElementById('os').value;
-                      zipCode = document.getElementById('zipcode').value;
-                      email = document.getElementById('email').value;
-                      emailConsent = document.getElementById('ec').value;
-                      name = document.getElementById('name').value;
+                      // address = document.getElementById('address').value;
+                      // address2 = document.getElementById('address2').value;
+                      // city = document.getElementById('city').value;
+                      // state = document.getElementById('state').value;
+                      // otherState = document.getElementById('os').value;
+                      // zipCode = document.getElementById('zipcode').value;
+                      // email = document.getElementById('email').value;
+                      // emailConsent = document.getElementById('ec').value;
+                      // name = document.getElementById('name').value;
+                      address = "void";
+                      address2 = "void";
+                      city = "void";
+                      state = "void";
+                      otherState = "void";
+                      zipCode = "void";
+                      email = "void";
+                      emailConsent = "void";
+                      name = "void";
+                      
                       if (address != "" && city != "" && state != "" && zipCode != "" && email != "" && emailConsent != "") {
                         finalAddress = name + "Email:" + email + "\n Ship2:" + address + " \n " + address2 + " \n " + city + " \n " + state + " \n " + otherState + " \n " + zipCode + " \n Other MHC emails:" + emailConsent;
                         console.log(finalAddress)
@@ -155,8 +170,8 @@
 <input type="image" src="images/paypal-btn.png" height="25%" width="40%" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Pay with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>`;
-                      console.log(message);
-                      document.getElementById('paypalPlace').innerHTML = newHTML;
+                      // console.log(message);
+                      // document.getElementById('paypalPlace').innerHTML = newHTML;
                     }
                   </script>
                   <style>

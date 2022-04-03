@@ -456,6 +456,27 @@ iframe {
   color: #0b0e14;}
 }
 
+.light-mode .top-background{
+      height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    right: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  background: hsl(179deg 100% 50%);
+  background: linear-gradient(10deg, hsl(179deg 100% 50%) 0%, hsl(179deg 100% 50%) 100%);
+
+}
+
 
 
 

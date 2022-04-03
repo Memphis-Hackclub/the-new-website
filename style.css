@@ -411,3 +411,22 @@ iframe {
     grid-template-columns: auto;
   }
 }
+
+    button{
+      background:#0b0e14;
+      color:#fafafa;
+    }
+    .light-mode #main1 {
+  background-color: #fafafa;
+  color: #0b0e14;}
+
+
+.light-mode .card {
+  background-color: #fafafa;
+  color: #0b0e14;
+}
+
+.light-mode button {
+  background-color: #fafafa;
+  color: #0b0e14;
+}

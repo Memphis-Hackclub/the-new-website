@@ -430,3 +430,32 @@ iframe {
   background-color: #fafafa;
   color: #0b0e14;
 }
+
+    .light-mode #main {
+  background-color: #fafafa;
+  color: #0b0e14;}
+
+    .light-mode a{
+  
+  color: #0b0e14;}
+
+  .light-mode h3{
+  background-color: #fafafa;
+  color: #0b0e14;}
+
+  .light-mode h2{
+  background-color: #fafafa;
+  color: #0b0e14;}
+
+   .light-mode .merch-description {
+  background-color: #fafafa;
+  color: #0b0e14;}
+
+.light-mode .fa{
+  background-color: #fafafa;
+  color: #0b0e14;}
+}
+
+
+
+

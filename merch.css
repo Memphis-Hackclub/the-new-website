@@ -92,3 +92,13 @@ input[type="text"], #state, input[type="email"], #ec {
     grid-template-columns: 1fr;
   }
 }
+
+#pyrahacks-h1 {
+  color:#78e6d3;
+  
+}
+
+
+#pyrahackstext {
+  color:#f31535;
+}

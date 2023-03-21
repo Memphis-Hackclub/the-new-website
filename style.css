@@ -356,6 +356,12 @@ iframe {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.card-grid-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+}
+
 .card {
   margin: 1em;
   background: #11151f;
